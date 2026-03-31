@@ -50,4 +50,6 @@ modules:
     - vfio-pci.ids=1002:164e
     - acpi_enforce_resources=lax
 
+  - type: initramfs
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
