@@ -44,11 +44,11 @@ modules:
   
   - type: kargs
     kargs:
-    - amd_iommu=on
-    - iommu=pt
-    - rd.driver.pre=vfio-pci
-    - vfio-pci.ids=1002:164e
-    - acpi_enforce_resources=lax
+      - amd_iommu=on
+      - iommu=pt
+      - rd.driver.pre=vfio-pci
+      - vfio-pci.ids=1002:164e
+      - acpi_enforce_resources=lax
 
   - type: initramfs
 
