@@ -21,9 +21,11 @@ modules:
     repos:
       copr:
         - infinality/kwin-effects-better-blur-dx
+        - ama1470/kwin-effects-glass
     install:
       packages:
         - kwin-effects-better-blur-dx
+        - kwin-effects-glass
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
