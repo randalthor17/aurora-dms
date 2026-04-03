@@ -52,6 +52,8 @@ modules:
       - vfio-pci.ids=1002:164e
       - acpi_enforce_resources=lax
       - driver_override=0000:15:00.0:vfio-pci
+      - it87.ignore_resource_conflict=1
+      - it87.force_id=0x8628
 
   - type: initramfs
 
