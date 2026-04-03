@@ -21,10 +21,12 @@ modules:
     repos:
       copr:
         - infinality/kwin-effects-better-blur-dx
+        - bazzite-org/webapp-manager
     install:
       packages:
         - kwin-effects-better-blur-dx
         - waydroid
+        - webapp-manager
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
