@@ -51,6 +51,7 @@ modules:
       - rd.driver.pre=vfio-pci
       - vfio-pci.ids=1002:164e
       - acpi_enforce_resources=lax
+      - driver_override=0000:15:00.0:vfio-pci
 
   - type: initramfs
 
